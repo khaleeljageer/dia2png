@@ -1,0 +1,38 @@
+{
+  "name": "dia2png",
+  "version": "0.1.0",
+  "description": "Convert Dia diagram files (.dia) to PNG using the installed dia CLI. Handy as a pre-build step for static sites.",
+  "type": "module",
+  "bin": {
+    "dia2png": "bin/dia2png.js"
+  },
+  "exports": "./src/index.js",
+  "files": [
+    "bin/",
+    "src/"
+  ],
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "dia",
+    "diagram",
+    "png",
+    "convert",
+    "hugo",
+    "static-site"
+  ],
+  "author": "Khaleel Jageer <jskcse4@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaleeljageer/dia2png.git"
+  },
+  "homepage": "https://github.com/khaleeljageer/dia2png#readme",
+  "bugs": {
+    "url": "https://github.com/khaleeljageer/dia2png/issues"
+  }
+}
